@@ -9,8 +9,17 @@ buildscript {
   }
 }
 
+repositories {
+	mavenLocal()
+}
+
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
 dependencies {
-  groovy 'org.codehaus.groovy:groovy:1.8.6'
+  compile 'groovyx.gdi:gdi:0.1a-SNAPSHOT'
+  groovy 'org.codehaus.groovy:groovy-all:2.1.0'
 }
 
 task wrapper(type: Wrapper) {
