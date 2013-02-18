@@ -6,9 +6,9 @@ This example demonstrates how to use [GDI](https://github.com/danveloper/gdi) wi
 
 ## How it works
 
-    + Services are injected into the `com.danveloper.gdi.examples.application.ServiceContainer` class using the static `injected` keyword (see [GDI](https://github.com/danveloper/gdi) for more details).
-    + In the `app.groovy` script for Ratpack, a new instance of `ServiceContainer` is created to access the application's services.
-    + This example demonstrates how to inject, and gain access to, a simple APIService from the Ratpack script's context.
+ * Services are injected into the `com.danveloper.gdi.examples.application.ServiceContainer` class using the static `injected` keyword (see [GDI](https://github.com/danveloper/gdi) for more details).
+ * In the `app.groovy` script for Ratpack, a new instance of `ServiceContainer` is created to access the application's services.
+ * This example demonstrates how to inject, and gain access to, a simple APIService from the Ratpack script's context.
 
 ## License
 
