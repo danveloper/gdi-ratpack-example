@@ -3,7 +3,7 @@ package com.danveloper.gdi.examples.ratpack.services
 import groovyx.gdi.registrar.InjectionScope
 
 /**
- * User: ddcdwoods
+ * User: dwoods
  * Date: 2/18/13
  */
 class APIService {
